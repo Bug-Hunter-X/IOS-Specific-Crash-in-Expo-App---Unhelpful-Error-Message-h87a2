@@ -1,0 +1,3 @@
+# iOS-Specific Crash in Expo App
+
+This repository demonstrates a bug where an Expo app crashes unexpectedly on iOS devices, but functions correctly on Android.  The iOS crash logs provide minimal information. The problem appears after performing specific actions within the app. The solution involves identifying and correcting a potential memory leak or improper resource handling within a specific component.  The reproduction steps provided show how to trigger the error. This is likely an edge case related to interactions between Expo modules or iOS's memory management.
